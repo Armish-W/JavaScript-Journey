@@ -50,3 +50,29 @@ console.log(aId);
 console.log(aId==Id);
 let a= 123n
 console.log(typeof a);
+
+/*
+memory
+
+stack)primitive, gives copies
+(so when copy is changed, original is safe as it is)
+heap)non primitive, gives original memory reference
+(so when assigned to another variable, its the original value
+and chaning one value changes both, the original too)
+*/
+
+let myname= "emily"
+let name= myname
+name= "anna"
+console.log(myname);
+console.log(name);
+
+let myuser= {
+       name: "hitesh",
+       age: 20
+}
+
+let hisuser= myuser
+hisuser.age= 10
+console.log(myuser);
+console.log(hisuser);
