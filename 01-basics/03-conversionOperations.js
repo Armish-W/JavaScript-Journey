@@ -36,3 +36,15 @@ In case of Boolean, empty string will result in false
 and non-empty string will result in true
 
 */
+
+let x = 3;
+const y = x++;
+
+console.log(`Postfix) x:${x}, y:${y}`);
+// Postfix Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`Prefix) a:${a}, b:${b}`);
+// Prefix Expected output: "a:4, b:4"
