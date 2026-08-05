@@ -29,4 +29,8 @@ console.log(date1.getTime()); // convert date into milli seconds to compare
 (console.log(date1.getTime())) - (console.log(myTime)); // doesnt work
 console.log(Math.floor(date1.getTime())/1000); // converted in seconds
 console.log(date1.getMonth()+1); //can get day, month, year etc, +1 for exact month
-
+console.log(`Date is ${date1.getDate()}, day is ${date1.getDay()}
+and time is ${date1.getHours()}:${date1.getMinutes()}:${date1.getSeconds()}`);
+console.log(date1.toLocaleString('default',{
+    weekday: 'long',
+}));
