@@ -45,3 +45,20 @@ console.log(Object.values(darazUser))
 console.log(Object.entries(darazUser))
 
 console.log(darazUser.hasOwnProperty("name"))
+
+const {courseInstructor: instructor} = course
+
+// console.log(courseInstructor);
+console.log(instructor);
+
+// {
+//     "name": "hitesh",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
+[
+    {},
+    {},
+    {}
+]
